@@ -90,7 +90,7 @@ public class JdbcTest {
 	}
 	
 	private String deleteTableCommand() {
-		return "DROP TABLE person";
+		return "DROP TABLE IF EXISTS person";
 	}
 	
 	private String createTableCommand() {
